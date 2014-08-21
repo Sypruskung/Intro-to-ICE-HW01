@@ -4,10 +4,20 @@ body {
 	background-attachment: fixed;
 }
 
-#text {
+#aboutme {
 	width: 600px;
+	padding: 50px;
 	margin-top: -70px;
-	padding: 80px 50px 50px 50px;
+	padding-top: 80px;
+}
+
+#aboutmee {
+	width: 600px;
+	padding: 50px;
+	margin-top: 100px;
+}
+
+.contentbox {
 	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.5);
 	-moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.5);
 	box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.5);
@@ -18,7 +28,7 @@ body {
 	text-align: center;
 }
 
-#img {
+#profilepic img {
 	width: 150px;
 	height: 150px;
 	border: solid white 5px;
