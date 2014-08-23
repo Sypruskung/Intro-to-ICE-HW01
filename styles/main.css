@@ -4,26 +4,6 @@ body {
 	background-attachment: fixed;
 }
 
-#aboutme {
-	width: 600px;
-	padding: 50px;
-	margin-top: -70px;
-	padding-top: 80px;
-}
-
-#aboutmee {
-	width: 600px;
-	padding: 50px;
-	margin-top: 100px;
-}
-
-.contentbox {
-	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.5);
-	-moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.5);
-	box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.5);
-	background-color: white;
-}
-
 #profilepic {
 	text-align: center;
 }
@@ -36,4 +16,26 @@ body {
 	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.5);
 	-moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.5);
 	box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.5);
+}
+
+.contentbox .container {
+	width: 600px;
+	padding: 50px;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.5);
+	box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.5);
+	background-color: white;
+}
+
+#aboutme .container{
+	margin-top: -70px;
+	padding-top: 80px;
+}
+
+#photo .container{
+	margin-top: 100px;
+}
+
+#friends .container{
+	margin-top: 100px;
 }
