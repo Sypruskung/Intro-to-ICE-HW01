@@ -34,7 +34,7 @@ body {
 	color: #CCC;
 }
 
-#pager {
+/*#pager {
 	height: 70px;
 	cursor: default;
 }
@@ -50,16 +50,16 @@ body {
 	box-shadow: 		none;
 }
 
-#pager .active {
+#pager .active span {
 	opacity: 1;
 	text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
 	cursor: pointer;
 }
 
-#pager .active:hover {
+#pager .active span:hover {
 	text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
 	color: black;
-}
+}*/
 
 #profilepic img, #friendlist img {
 	width: 150px;
