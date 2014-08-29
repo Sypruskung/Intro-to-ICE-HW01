@@ -16,18 +16,6 @@ $("#navbar li a").click(function(e) {
 
 });
 
-// $('.up-button').click(function() {
-
-// 	pageup();
-
-// });
-
-// $('.down-button').click(function() {
-
-// 	pagedown();
-
-// });
-
 $(document).keydown(function (e) {
 
 	if (e.keyCode == 33 || e.keyCode == 38) { //pageup, arrowup
@@ -43,7 +31,7 @@ $(document).keydown(function (e) {
 	}
 
 	if (e.keycode == 35) { //end
-		gotoelement('#friends');
+		gotoelement('#contact');
 	}
 
 });
@@ -87,7 +75,7 @@ var gotoelement = function(goto) {
 
 	$('html, body').animate({
         scrollTop: $(goto).offset().top
-    }, 500);
+    }, 800);
 
     updatecurrent();
 
