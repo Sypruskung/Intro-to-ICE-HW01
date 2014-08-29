@@ -13,21 +13,6 @@
 		<!-- -->
 		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false"></script>
 
-		<script>
-			function initialize() {
-				var mapProp = {
-					center:new google.maps.LatLng(51.508742,-0.120850),
-					zoom:5,
-					mapTypeId:google.maps.MapTypeId.ROADMAP
-				};
-				var map=new google.maps.Map(document.getElementById("googleMap")
-					,mapProp);
-			}
-
-			google.maps.event.addDomListener(window, 'load', initialize);
-
-		</script>
-
 	</head>
 
 	<body data-spy="scroll"  data-target="#navbar">
@@ -119,14 +104,23 @@
 		<div id="interest" class="contentbox">
 			<div class="container">
 				<div class="text-center">
+
 					<h1>My Interest</h1>
-					<p>
-						</br>May be we might have something in common</br></br>
-						Hobbies: Reading books, Dancing</br>
-						Favorite Books: Harry Potter,Divergent</br>
-						Favorite Movies : Game of Thrones</br>
-						Favorite Songs : Barney's song :)</br>
-					</p>
+					<p>May be we might have something in common</p>
+					<ul>
+						<li>
+							<b>Hobbies: </b>Harry Potter, Divergent
+						</li>
+						<li>
+							<b>Favorite Books: </b>Just Guess *O*
+						</li>
+						<li>
+							<b>Favorite Movies: </b>Game of Thrones
+						</li>
+						<li>
+							<b>Favorite Songs: </b>Barney's song :)
+						</li>
+					</ul>
 				</div>
 			</div><!-- /.container -->
 		</div>
@@ -134,7 +128,7 @@
 		<div id="contact" class="contentbox">
 			<div class="container">
 				<div class="text-center">
-					<div class="textwrapper">
+					<div id="textwrapper" class="inner">
 						<h1>Contact Info</h1>
 						<p>
 							</br>City : Bangkok</br></br>
@@ -142,7 +136,7 @@
 							e-mail : nammimy@gmail.com</br>
 						</p>
 					</div>
-					<div id="googleMap"></div>
+					<div id="googleMap" class="inner"></div>
 				</div>
 			</div><!-- /.container -->
 		</div>
