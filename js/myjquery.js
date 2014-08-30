@@ -4,8 +4,6 @@ $(document).ready(function(){
 
 });
 
-google.maps.event.addDomListener(window, 'load', initialize);
-
 function initialize() {
 	var mapProp = {
 		center:new google.maps.LatLng(13.7383,100.5324),
@@ -39,11 +37,11 @@ $("#navbar li a").click(function(e) {
 
 $(document).keydown(function (e) {
 
-	if (e.keyCode == 33 || e.keyCode == 38) { //pageup, arrowup
+	if (e.keyCode == 33 || e.keyCode == 38 || e.keyCode == 37) { //pageup, uparrow, leftarrow
 		pageup();
 	} 
 
-	if (e.keyCode == 34 || e.keyCode == 40) { //pagedown, arrowdown
+	if (e.keyCode == 34 || e.keyCode == 40 || e.keyCode == 39) { //pagedown, arrowdown, rightarrow
 		pagedown();
 	}
 
@@ -52,7 +50,7 @@ $(document).keydown(function (e) {
 	}
 
 	if (e.keycode == 35) { //end
-		gotoelement('#contact');
+		gotoelement('#social');
 	}
 
 });
